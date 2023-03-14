@@ -1,0 +1,22 @@
+<?
+/*
+Opposite number PHP Kata 8 kyu
+
+Description:
+
+Very simple, given an integer or a floating-point number, find its opposite.
+
+Examples:
+
+1: -1
+14: -14
+-34: 34
+
+*/
+
+
+/* Solution: */
+
+function opposite($n) {
+  return $n * -1;
+}
